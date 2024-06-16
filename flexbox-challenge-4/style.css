@@ -1,0 +1,89 @@
+:root {
+  --beige: #f3eed9;
+  --brown: #824936;
+  --dark: #222c2a;
+}
+
+.beige-text {
+  color: var(--beige);
+}
+
+.beige-bg {
+  background-color: var(--beige);
+}
+
+.brown-text {
+  color: var(--brown);
+}
+
+.brown-bg {
+  background-color: var(--brown);
+}
+
+.dark-text {
+  color: var(--dark);
+}
+
+.dark-bg {
+  background-color: var(--dark);
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-1 {
+  text-align: center;
+  padding: 8rem 0;
+}
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-size: 60px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+img {
+  border: none;
+  width: 100%;
+}
+
+.top-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.section-2 {
+  padding: 4rem 0;
+}
+
+.section-3 {
+  padding: 4rem 0;
+}
+
+.section-4 {
+  padding: 4rem 0;
+}
